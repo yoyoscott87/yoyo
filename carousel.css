@@ -13,8 +13,11 @@ b {
 
 
 img {
+  position: relative;
   display: block; /* 將圖片設置為塊級元素 */
   margin: 0 auto; /* 左右居中對齊 */
+  top: 0 auto; /* 垂直居中 */
+  
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -31,9 +34,11 @@ img {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
-  
+  height: 22  rem;
+
 }
+
+
 
 
 /* MARKETING CONTENT
